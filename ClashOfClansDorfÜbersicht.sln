@@ -5,6 +5,12 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClashOfClansDorfÜbersicht", "ClashOfClansDorfÜbersicht\ClashOfClansDorfÜbersicht.csproj", "{83603E58-1B97-46FD-B749-5CF583DC56B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClashOfClansDorfÜbersicht.Domain", "ClashOfClansDorfÜbersicht.Domain\ClashOfClansDorfÜbersicht.Domain.csproj", "{73F45B78-925B-4F86-A200-E0090DB63C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClashOfClansDorfÜbersicht.Infrastructure", "ClashOfClansDorfÜbersicht.Infrastructure\ClashOfClansDorfÜbersicht.Infrastructure.csproj", "{DF97DAC9-62C0-4362-B97C-032664E2F084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClashOfClansDorfÜbersicht.Infrastructure.Test", "ClashOfClansDorfÜbersicht.Infrastructure.Test\ClashOfClansDorfÜbersicht.Infrastructure.Test.csproj", "{95BCDAAB-122C-4546-9E31-1B03A22601BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{83603E58-1B97-46FD-B749-5CF583DC56B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83603E58-1B97-46FD-B749-5CF583DC56B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83603E58-1B97-46FD-B749-5CF583DC56B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F45B78-925B-4F86-A200-E0090DB63C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F45B78-925B-4F86-A200-E0090DB63C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F45B78-925B-4F86-A200-E0090DB63C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F45B78-925B-4F86-A200-E0090DB63C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF97DAC9-62C0-4362-B97C-032664E2F084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF97DAC9-62C0-4362-B97C-032664E2F084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF97DAC9-62C0-4362-B97C-032664E2F084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF97DAC9-62C0-4362-B97C-032664E2F084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95BCDAAB-122C-4546-9E31-1B03A22601BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95BCDAAB-122C-4546-9E31-1B03A22601BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95BCDAAB-122C-4546-9E31-1B03A22601BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95BCDAAB-122C-4546-9E31-1B03A22601BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
