@@ -1,0 +1,235 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.InfrastructureTest\\ClashOfClansDorfÜbersicht.InfrastructureTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Domain\\ClashOfClansDorfÜbersicht.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Domain\\ClashOfClansDorfÜbersicht.Domain.csproj",
+        "projectName": "ClashOfClansDorfÜbersicht.Domain",
+        "projectPath": "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Domain\\ClashOfClansDorfÜbersicht.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dawud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dawud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.InfrastructureTest\\ClashOfClansDorfÜbersicht.InfrastructureTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.InfrastructureTest\\ClashOfClansDorfÜbersicht.InfrastructureTest.csproj",
+        "projectName": "ClashOfClansDorfÜbersicht.InfrastructureTest",
+        "projectPath": "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.InfrastructureTest\\ClashOfClansDorfÜbersicht.InfrastructureTest.csproj",
+        "packagesPath": "C:\\Users\\Dawud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.InfrastructureTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dawud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Domain\\ClashOfClansDorfÜbersicht.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Domain\\ClashOfClansDorfÜbersicht.Domain.csproj"
+              },
+              "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Infrastructure\\ClashOfClansDorfÜbersicht.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Infrastructure\\ClashOfClansDorfÜbersicht.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Infrastructure\\ClashOfClansDorfÜbersicht.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Infrastructure\\ClashOfClansDorfÜbersicht.Infrastructure.csproj",
+        "projectName": "ClashOfClansDorfÜbersicht.Infrastructure",
+        "projectPath": "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Infrastructure\\ClashOfClansDorfÜbersicht.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Dawud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dawud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Domain\\ClashOfClansDorfÜbersicht.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dawud\\source\\repos\\ClashOfClansDorfÜbersicht\\ClashOfClansDorfÜbersicht.Domain\\ClashOfClansDorfÜbersicht.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

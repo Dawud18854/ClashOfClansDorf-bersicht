@@ -2,12 +2,12 @@
 {
     public class GameAccount : EntityBase
     {
-        public string IngameName { get; set; }
+        public string AccountName { get; set; } = string.Empty;
         public DateTime CreationDate { get; set; } 
-        public string Email { get; set; } 
+        public string Email { get; set; } = string.Empty;
         public int VillageId { get; set; }
-        public Village Village { get; set; } = default!;
+        public virtual Village Village { get; set; } = default!;
         public int UserId { get; set; }
-        public User User { get; set; } = default!;
+        public virtual User User { get; set; } = default!;
     }
 }

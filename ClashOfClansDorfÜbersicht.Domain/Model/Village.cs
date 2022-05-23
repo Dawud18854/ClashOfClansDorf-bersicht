@@ -14,10 +14,11 @@ namespace ClashOfClansDorfÜbersicht.Domain.Model
         public int Gems { get; set; } 
         public int Worker { get; set; }
         public int Trophies { get; set; }
-        public string Rank { get; set; }
+        public string Rank { get; set; } = string.Empty;
         public string GuildRank { get; set; } = "New";
         public int ClanId { get; set; }
-        public Clan Clan { get; set; } = default!;
-        public List<Building> Buildings { get; set; } = default!;
+        public virtual Clan Clan { get; set; } = default!;
+        public string VillageName { get; set; } = string.Empty;
+        public virtual List<Building> Buildings { get; set; } = default!;
     }
 }

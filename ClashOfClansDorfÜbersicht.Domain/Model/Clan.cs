@@ -8,9 +8,9 @@ namespace ClashOfClansDorfÜbersicht.Domain.Model
 {
     public class Clan : EntityBase
     {
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
         public int Member { get; set; }
-        public List<Village> Villages { get; set; }
+        public virtual List<Village> Villages { get; set; } = default!;
     }
 }

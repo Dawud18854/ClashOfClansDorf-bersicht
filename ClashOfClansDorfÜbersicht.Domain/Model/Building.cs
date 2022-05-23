@@ -8,11 +8,11 @@ namespace ClashOfClansDorfÜbersicht.Domain.Model
 {
     public class Building : EntityBase
     {
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
         public int CurrentLevel { get; set; }
-        public string Description { get; set; }
+        public string Description { get; set; } = string.Empty;
         public int MaxLevel { get; set; }
         public int VillageId { get; set; }
-        public Village Village { get; set; } = default!;
+        public virtual Village Village { get; set; } = default!;
     }
 }
